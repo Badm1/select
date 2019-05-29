@@ -1,0 +1,44 @@
+
+.selector {
+    position: left;
+    width: 200px;
+    margin: auto;
+    justify-content: left;
+    cursor: pointer; 
+}
+
+.selectorTitle {
+    height: 30px;
+    padding-left: 5px;    
+    display: flex;
+    border: 1px solid #de910a;
+}
+
+.selectorTitleText {
+   width:200px;
+   padding-top:5px;
+}
+
+.options {
+    visibility: hidden;
+    height: 0px;
+}
+
+.option {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #de910a;
+    
+}
+
+.option:hover {
+    background-color: #de910a;
+}
+
+.selectorListVisible {
+    visibility: visible;
+    
+}
+
+
